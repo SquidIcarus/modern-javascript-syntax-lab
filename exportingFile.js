@@ -1,7 +1,7 @@
-export default 'Matt';
-export const computer = 'MacBook Pro'
+// export default 'Matt';
+// export const computer = 'MacBook Pro'
 
-const age = 43;
-const job = 'programmer';
+// const age = 43;
+// const job = 'programmer';
 
-export {age, job}
+// export {age, job}
