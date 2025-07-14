@@ -63,3 +63,20 @@ console.log("*** EXERCISE 3 ***")
 console.log(make);
 console.log(model);
 
+// ! Exercise 4: 
+// a. Duplicate the provided `morePizzaToppings` array using the spread 
+//    operator and assign it to a variable named `uncontroversialPizzaToppings`.
+// 
+// b. Console log the `uncontroversialPizzaToppings` variable.
+//
+// Starting code (don't modify this):
+
+const morePizzaToppings = ['Cheese', 'Sauce'];
+
+// Your code here:
+
+uncontroversialPizzaToppings = [...morePizzaToppings];
+
+console.log("*** EXERCISE 4 ***")
+console.log("original array", morePizzaToppings)
+console.log("new duplicated array", uncontroversialPizzaToppings);
