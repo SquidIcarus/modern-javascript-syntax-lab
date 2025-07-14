@@ -151,3 +151,27 @@ function wordClass(noun = "cat", adjective = "orange") {
 console.log("*** EXERCISE 8 ***");
 wordClass();
 wordClass("bird", "blue");
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+const pizzaWithBroccoli = 'not the best'
+
+// Your code here:
+
+let opinion = pizza === "tasty" ? "yum" : "yuck";
+let opinion2 = pizzaWithBroccoli === "tasty" ? "yum" : "yuck";
+
+console.log("*** EXERCISE 9 ***");
+console.log(opinion);
+console.log(opinion2);
+
