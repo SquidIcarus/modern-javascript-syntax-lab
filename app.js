@@ -175,3 +175,50 @@ console.log("*** EXERCISE 9 ***");
 console.log(opinion);
 console.log(opinion2);
 
+// ! Exercise 10 Review:
+// should log: 
+// r1: foo 
+// r2: 243
+// r3: false 
+// r4: 3000
+
+let myVar = 0
+
+const result1 = 'bar' && 'foo';
+const result2 = false || 243;
+const result3 = 42 && false;
+const result4 = myVar || 3000;
+
+console.log("*** EXERCISE 10 ***");
+console.log('result1:', result1);
+console.log('result2:', result2);
+console.log('result3:', result3);
+console.log('result4:', result4);
+
+// ! Exercise 10:
+// ! 10.1: Set language
+// a. Construct a single line of code that assigns a default value using the 
+//    logical OR operator. This line should match the logic of the following 
+//    statement:
+//
+//    "lang is equal to localLangConfig or the default value of English."
+//
+// b. Create a variable called `lang`.
+//
+// c. Assign `lang` the value of localLangConfig or 'en' as a default if 
+//    `localLangConfig is falsy.
+//
+// d. Log the value of `lang` to the console.
+//
+// Your code here (localLangConfig is provided to get you started):
+
+// Simulated language configuration (change this variable to test)
+
+// const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+const localLangConfig = 'es'; // Change to 'es', 'fr', etc., or leave it `null`.
+
+// const lang = localLangConfig || null
+const lang = localLangConfig || 'en';
+
+console.log("***EXERCISE 10***");
+console.log(lang);
