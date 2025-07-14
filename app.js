@@ -80,3 +80,30 @@ uncontroversialPizzaToppings = [...morePizzaToppings];
 console.log("*** EXERCISE 4 ***")
 console.log("original array", morePizzaToppings)
 console.log("new duplicated array", uncontroversialPizzaToppings);
+
+// ! Exercise 5:
+// a. Duplicate the provided `anotherCar` object and spread its values into a 
+//    new variable named `myCar`.
+//
+// b. Change the `make` and `model` properties of the `myCar` object to new 
+//    values.
+//
+// c. Console log both objects and observe the results.
+//
+// Starting code (don't modify this):
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
+// Your code here:
+
+const myCar = { ...anotherCar };
+
+myCar.make = "DMC"
+myCar.model = "DeLorean"
+
+console.log("*** EXERCISE 5 ***")
+console.log("Original Obj:", anotherCar);
+console.log("New Cloned Obj:", myCar);
