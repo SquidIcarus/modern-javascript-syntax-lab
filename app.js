@@ -93,8 +93,8 @@ console.log("new duplicated array", uncontroversialPizzaToppings);
 // Starting code (don't modify this):
 
 const anotherCar = {
-  make: 'Toyota',
-  model: 'RAV4',
+    make: 'Toyota',
+    model: 'RAV4',
 };
 
 // Your code here:
@@ -107,3 +107,26 @@ myCar.model = "DeLorean"
 console.log("*** EXERCISE 5 ***")
 console.log("Original Obj:", anotherCar);
 console.log("New Cloned Obj:", myCar);
+
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+
+const propertyName = "username"
+
+const userProfile = {
+    [propertyName]: "Jon Delorean"
+}
+
+console.log("*** EXERCISE 6 ***")
+console.log(propertyName);
+console.log(userProfile);
