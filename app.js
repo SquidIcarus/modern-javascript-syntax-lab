@@ -144,9 +144,10 @@ console.log(userProfile);
 //
 // Your code here:
 
-// function wordClass(noun = "cat", adjective = "orange") {
-//     console.log(noun, adjective)
-// };
+function wordClass(noun = "cat", adjective = "orange") {
+    console.log(`the ${noun} is ${adjective}`)
+};
 
-// console.log("*** EXERCISE 6 ***");
-// console.log(wordClass);
+console.log("*** EXERCISE 8 ***");
+wordClass();
+wordClass("bird", "blue");
